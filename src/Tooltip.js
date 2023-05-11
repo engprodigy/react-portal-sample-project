@@ -14,7 +14,7 @@ class Tooltip extends React.Component {
 
   // }
   render() {
-    return ReactDOM.createPortal(<> {this.props.text} </>, this.el);
+    return ReactDOM.createPortal(<>{this.props.text}</>, this.el);
   }
 }
 export default Tooltip;
